@@ -1,0 +1,96 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PLAYER-2</title>
+ <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""> 
+ <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&amp;display=swap" rel="stylesheet">
+ <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+ <script src="https://www.jqueryscript.net/demo/jQuery-Plugin-For-Water-Ripple-Animation-ripples/js/jquery.ripples.js"></script>
+ <link href="css/repro2.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+ <div class="repro19" id="repro19" data-tag="">
+ <div class="player-wpr ripples">
+ <div class="blur" style="background: url(&quot;) 0% 0% / 100% 100%;"></div>
+ <div class="player-ctr">
+ <div class="listeners fal fa-users"> </div>
+ <div class="album-cover-wpr">
+ <div class="social-share-wpr animated">
+ <a href="https://www.facebook.com/" target="_blank" class="social-link social-link-facebook fab fa-facebook animated" id="aface"></a>
+ <a href="https://twitter.com/home?status=I'm listening to " target="_blank" class="social-link social-link-twitter fab fa-twitter animated" id="atwitter"></a>
+ <a href="https://www.instagram.com/" target="_blank" class="social-link social-link-instagram fab fa-instagram animated" id="ains"></a></div>
+ <div class="album-cover animated" style="background-image: url(&quot;); background-size: 100% 100%;"></div>
+ </div>
+ <div class="hora"><span>Hora Exacta:</span></div>
+ <div id="clock" onload="currentTime()"></div>
+ <div id="data" class="data">
+ <script language="javascript"> var fecha=new Date(); var diames=fecha.getDate(); var diasemana=fecha.getDay(); var mes=fecha.getMonth() +1 ; var año=fecha.getFullYear(); var textosemana = new Array (7); textosemana[0]="Domingo"; textosemana[1]="Lunes"; textosemana[2]="Martes"; textosemana[3]="Miércoles"; textosemana[4]="Jueves"; textosemana[5]="Viernes"; textosemana[6]="Sábado"; var textomes = new Array (12); textomes[1]="Enero"; textomes[2]="Febrero"; textomes[3]="Marzo"; textomes[4]="Abril"; textomes[5]="Mayo"; textomes[6]="Junio"; textomes[7]="Julio"; textomes[8]="Agosto"; textomes[9]="Septiembre"; textomes[10]="Octubre"; textomes[11]="Noviembre"; textomes[12]="Diciembre"; document.write("" + textosemana[diasemana] + " " + diames + " de " + textomes[mes] + " de " + año + "<br>"); </script>
+ <br>
+ </div>
+ <div class="track-info-wpr">
+ <div class="track-info-ctr">
+ <marquee> <div class="marquee">
+ <span class="artist-name animated"> </span><span> - </span><span class="songtitle animated">
+ </span>
+ </div>
+ </marquee>
+ </div>
+ </div>
+ <div class="ppBtn playing stop-btn fal fa-circle"></div>
+ <div class="servertitle"> </div>
+ </div>
+ <div class="icons-left-wpr">
+ <div class="icons-left icons-history fal fa-history"></div>
+ </div>
+ <div class="icons-right-wpr">
+ <div class="icons-right icons-volume fal fa-volume-up icons-volume3"></div>
+ <div class="icons-right icons-volumeM fal fa-volume"></div>
+ </div>
+ <input class="volume-slider" type="range" min="0" max="100" step="0.10" value="" autocomplete="off">
+ <div class="history-wpr nodisplay">
+ <div class="history-title">Ultimas Reproducciones:</div>
+ <div class="row-wpr">
+ <div class="history-cover" id="row1" style="background-image: url(&quot;); background-size: 100% 100%;"></div>
+ <div class="history-track-info">
+ <div class="history-songtitle"> </div>
+ <div class="history-artist-name"> </div>
+ </div><div class="rowNum">1</div>
+ </div>
+ <div class="row-wpr">
+ <div class="history-cover" id="row2" style="background-image: url(&quot;); background-size: 100% 100%;"></div>
+ <div class="history-track-info">
+ <div class="history-songtitle"> </div>
+ <div class="history-artist-name"> </div>
+ </div>
+ <div class="rowNum">2</div>
+ </div>
+ <div class="row-wpr">
+ <div class="history-cover" id="row3" style="background-image: url(&quot;); background-size: 100% 100%;"></div>
+ <div class="history-track-info">
+ <div class="history-songtitle"> </div>
+ <div class="history-artist-name"> </div>
+ </div>
+ <div class="rowNum">3</div>
+ </div>
+ <div class="row-wpr">
+ <div class="history-cover" id="row4" style="background-image: url(&quot;); background-size: 100% 100%;"></div>
+ <div class="history-track-info">
+ <div class="history-songtitle"> </div>
+ <div class="history-artist-name"> </div>
+ </div>
+ <div class="rowNum">4</div>
+ </div><div class="row-wpr">
+ <div class="history-cover" id="row5"></div>
+ <div class="history-track-info">
+ <div class="history-songtitle"> </div>
+ <div class="history-artist-name"> </div>
+ </div>
+ <div class="rowNum">5</div>
+ </div>
+ </div>
+ </div>
+ </div>
+ <script src="js/repro2.js"></script>
+ </body>
+ </html>
